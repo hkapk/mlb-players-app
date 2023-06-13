@@ -19,3 +19,7 @@
 .custom-btn {
   @apply flex flex-row relative justify-center items-center py-3 px-6 outline-none bg-primary-blue text-white rounded-full mt-10;
 }
+
+.footer {
+  @apply flex flex-col text-black-100 mt-5 border-t border-gray-100;
+}

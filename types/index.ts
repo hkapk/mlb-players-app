@@ -7,3 +7,9 @@ export interface CustomButtonProps {
     MouseEventHandler<HTMLButtonElement>;
     btnType?: "button" | "submit";
 }
+
+export interface searchTeamProps {
+    team: string;
+    setTeam: (team: string) => void
+
+}

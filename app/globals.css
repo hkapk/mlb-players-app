@@ -23,3 +23,7 @@
 .footer {
   @apply flex flex-col text-black-100 mt-5 border-t border-gray-100;
 }
+
+.search-team__option {
+  @apply cursor-default select-none py-2 pl-10 pr-4;
+}

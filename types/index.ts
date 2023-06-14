@@ -13,3 +13,21 @@ export interface searchTeamProps {
     setTeam: (team: string) => void
 
 }
+
+export interface scoreProps {
+    sport_key: "string";
+    sport_title: "string";
+    commence_time: "date";
+    completed: "boolean";
+    home_team: "string";
+    away_team: "string";
+    scores: [
+        {
+            name: "string";
+            score: "number";
+        }
+    ];
+    last_update: "date";
+    id: "string";
+}
+

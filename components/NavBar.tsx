@@ -16,6 +16,7 @@ const NavBar = () => {
                         height={20}
                         className="object-contain" />
                 </Link>
+
             </nav>
         </header>
     )

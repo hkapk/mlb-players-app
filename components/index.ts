@@ -5,6 +5,7 @@ import Footer from './Footer';
 import SearchBar from './SearchBar';
 import CustomFilter from './CustomFilter';
 import SearchTeam from './SearchTeam';
+import ScoreCard from './ScoreCard';
 
 export {
     Hero,
@@ -13,5 +14,6 @@ export {
     Footer,
     SearchBar,
     CustomFilter,
-    SearchTeam
+    SearchTeam,
+    ScoreCard
 };
